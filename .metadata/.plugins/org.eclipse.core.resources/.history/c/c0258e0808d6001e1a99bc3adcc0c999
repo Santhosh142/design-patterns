@@ -1,0 +1,13 @@
+package observerDesign;
+
+public class Main {
+
+	public static void main(String[] args) {
+		NewsChannel channel1 = new NewsChannel();
+		NewsAgency agency = new NewsAgency();
+		
+		agency.addObserver(channel1);
+
+	}
+
+}
